@@ -77,7 +77,7 @@ h2 {
 	float: left;
 }
 #topLinks li a {
-	color: #333
+	color: #333;
 	text-align: center;
 	padding: 16px;
 	text-decoration: none;
@@ -106,12 +106,12 @@ h2 {
 	font-family: "Anton", cursive;
 }
 #banner {
-	background-image: url("Reset.jpg")
+	background-image: url("../img/tess/TessBanner4.3-half.png");
 	background-repeat: no-repeat;
-	background-position:center top;
+	background-position: center top;
 	width: 100%;
 	text-align: center;
-	padding-top: 3000px;
+	padding-top: 300px;
 	color: #333;
 }
 #banner .logo {
