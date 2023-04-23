@@ -126,27 +126,32 @@ h2 {
 }
 #banner #action {
     text-align: center;
-    white-space: nowrap;
     font-weight: bold;
-    width: 200px;
+    width: auto;
     margin: 20px auto 0px auto;
 }
 #banner #action a {
+    -moz-transform: all 250ms ease-out;
     -webkit-transition: all 250ms ease-out;
-    -ms-transition: all 250ms ease-out;
     transition: all 250ms ease-out;
     padding: 20px;
     color: white;
     text-decoration: none;
-    text-align: center;
     border-radius: 30px;
     background-color: #4392F1;
 }
 #banner #action a:hover {
+    -moz-transform: all 250ms ease-out;
     -webkit-transition: all 250ms ease-out;
-    -ms-transition: all 250ms ease-out;
     transition: all 250ms ease-out;
     background-color: #F46036;
     padding: 20px 40px;
-    text-align: center;
+}
+#banner #action a:active {
+    -moz-transform: all 250ms ease-out;
+    -webkit-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    background-color: #4392F1;
+    color: #4392F1;
+    padding: 100% 100%;
 }
