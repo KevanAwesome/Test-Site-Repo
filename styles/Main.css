@@ -67,6 +67,7 @@ h2 {
     padding: 15px;
 }
 #topMenu {
+    background-color:#d8d8d8;
     height: 60px;
 }
 #topLinks {
@@ -80,33 +81,37 @@ h2 {
     overflow: hidden;
 }
 #topLinks li {
+    padding:auto;
+    margin:auto;
     float: left;
 }
 #topLinks li a {
     color: #333;
     text-align: center;
-    padding: 16px;
+    padding: 40px 16px 40px 16px;
     text-decoration: none;
     -webkit-transition: all 250ms ease-out;
-    -ms-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
     transition: all 250ms ease-out;
 }
 #topLinks li a:hover {
+    padding: 40px 16px 40px 16px;
+    background-color:#F46036;
     color: #4392F1;
     -webkit-transition: all 250ms ease-out;
-    -ms-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
     transition: all 250ms ease-out;
     text-decoration: underline;
 }
 #topMenu .logo {
     float: left;
-    padding-top: 13px;
+    padding-top: auto;
     font-size: 33px;
     color: #333;
     text-decoration: none;
 }
 #topMenu .logo:hover {
-    color: #4392F1;
+    background-color: #4392F1;
 }
 .logo {
     font-family: "Anton", cursive;
@@ -148,10 +153,16 @@ h2 {
     padding: 20px 40px;
 }
 #banner #action a:active {
-    -moz-transform: all 250ms ease-out;
-    -webkit-transition: all 250ms ease-out;
-    transition: all 250ms ease-out;
+    /*-moz-transform: all 250ms ease-out;
+        -webkit-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;*/
     background-color: #4392F1;
     color: #4392F1;
     padding: 100% 100%;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+    position: relative;
+    z-index: 100;
 }
