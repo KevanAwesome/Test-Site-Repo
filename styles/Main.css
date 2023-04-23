@@ -1,13 +1,13 @@
 /*
-        font-family: "Anton", cursive;
-        font-family: "Open Sans", sans-serif;
-        
-        Test colour : #333;
-        Dark blue : #345995
-        Light blue : #4392F1;
-        Red : #D7263D;
-        Yellow : #EAC435;
-        Orange : #F46036;
+    font-family: "Anton", cursive;
+    font-family: "Open Sans", sans-serif;
+    
+    Test colour : #333;
+    Dark blue : #345995
+    Light blue : #4392F1;
+    Red : #D7263D;
+    Yellow : #EAC435;
+    Orange : #F46036;
 */
 
 body {
@@ -34,10 +34,10 @@ h2 {
 }
 
 .wrap {
-    margin: 0 auto;
-    padding: 0;
-    white-space: nowrap;
+    margin: 0px auto 0px auto;
+    padding: 0px;
     width: 100%;
+    text-align: center;
 }
 .spacer.v20 {
     height: 20px;
@@ -101,7 +101,7 @@ h2 {
 #topMenu .logo {
     float: left;
     padding-top: 13px;
-    font-size: 24px;
+    font-size: 33px;
     color: #333;
     text-decoration: none;
 }
@@ -121,13 +121,15 @@ h2 {
     color: #333;
 }
 #banner .logo {
+    text-align: center;
     margin-top: 200px;
 }
 #banner #action {
     text-align: center;
+    white-space: nowrap;
     font-weight: bold;
     width: 200px;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0px auto;
 }
 #banner #action a {
     -webkit-transition: all 250ms ease-out;
@@ -136,6 +138,7 @@ h2 {
     padding: 20px;
     color: white;
     text-decoration: none;
+    text-align: center;
     border-radius: 30px;
     background-color: #4392F1;
 }
@@ -145,4 +148,5 @@ h2 {
     transition: all 250ms ease-out;
     background-color: #F46036;
     padding: 20px 40px;
+    text-align: center;
 }
