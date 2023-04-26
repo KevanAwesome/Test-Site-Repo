@@ -10,6 +10,15 @@
     Orange : #F46036;
 */
 
+@keyframes bimgsl {
+	0% {
+		background-position: 50% 0;
+    }
+	100% {
+        background-position: 250% 0;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -132,26 +141,37 @@ h2 {
 .logo {
     font-family: "Anton", cursive;
 }
+
+.BannerWin {
+    padding: auto;
+    margin: auto;
+	overflow: hidden;
+	height: auto;
+	width: 100%;
+}
+
 #banner {
-    background-image: url("../img/tess/TessBannerLong.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: auto 100%;
+    background-image: url("../img/tess/TessBanner.png");
+    background-repeat: repeat-x;
+    background-position: 50% 0%;
+    background-size: 50%;
     width: 100%;
     height: auto;
     text-align: center;
-    padding-top: 230px;
+    padding-top: 320px;
     color: #333;
+	animation: bimgsl 20s linear infinite;
 }
-#banner .logo {
+
+#banner .NameTitle {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 0px;
 }
 #banner #action {
     text-align: center;
     font-weight: bold;
     width: auto;
-    margin: 20px auto 0px auto;
+    margin: 0px auto 20px auto;
 }
 #banner #action a {
     -moz-transform: all 250ms ease-out;
