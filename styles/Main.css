@@ -70,7 +70,7 @@ h2 {
 #First {
     text-align: center;
     color: #fff;
-    min-width: 1000px;
+    width: 100%;
     background-color: #F46036;
 }
 #First > div {
